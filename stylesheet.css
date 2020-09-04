@@ -1,0 +1,314 @@
+body {
+	background-image:url(./acharya-narendra-dev-college-andc-delhi.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	font-size:15px;
+	font-family:Serif;
+}
+
+/* TOPBAR
+=========*/
+
+#topbar {
+	background:linear-gradient(to right, rgba(17,7,202,0.8),purple);
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	border-bottom-left-radius:8px;
+}
+
+/* TOPBAR LOGO
+==============*/
+
+#topbar #logo {
+	display:block;
+	float:left;
+	height:50px;
+	width:200px;
+	margin-top:4px;
+	margin-left:4px;
+}
+
+#topbar #logo a {
+	display:block;
+	text-decoration:none;
+	float:left;
+	height:40px;
+	margin-top:3px;
+}
+
+#topbar #logo img {
+	height:40px;
+	width:40px;
+}
+
+#topbar #logo #andc_cshome {
+	padding-left:5px;
+	padding-top:4px;
+}
+
+#topbar #logo #andc_cshome b {
+	color:white;
+	font-size:180%;
+}
+
+#topbar #logo a:hover {
+	opacity:0.7;
+	transition:opacity 0.5s ease-in-out;
+}
+
+/* TOPBAR BUTTONS
+=================*/
+
+#topbar ul{
+	margin-top:14px;
+	margin-right:5px;
+	list-style-type:none;
+	text-align:right;
+	clear:right;
+	line-height:30px;
+}
+
+#topbar ul li {
+	display:inline;
+	float:right;
+	padding: 0px 3px;
+}
+
+#topbar ul li a {
+	text-decoration:none;
+	background:linear-gradient(to right,rgba(193,101,200,0.8),rgba(255,255,255,0.3));
+	color:white;
+	padding:2px 4px;
+	font-size:90%;
+	font-weight:bold;
+	border:3px ridge rgb(164,17,174);
+	border-radius:5px;
+}
+
+#topbar ul li a:hover {
+	background:linear-gradient(to right,white,rgb(100,30,200));
+	border-color:rgb(17,7,255);
+	font-weight:bold;
+	color:black;
+}
+
+/* HEADER
+==========*/
+
+#header {
+	margin-top:65px;
+	margin-left:15px;
+	margin-right:15px;
+	padding:10px;
+	background:linear-gradient(lightgrey,white);
+	border: 6px solid Grey;
+	border-radius:10px;
+}
+
+#header #andclogo {
+	display:inline;
+	float:left;
+	clear:left;
+}
+
+#header #andclogo a img, #header #dulogo a img {
+	padding-top:5px;
+	height:120px;
+	width:120px;
+}
+
+#header #dulogo {
+	display:inline;
+	float:right;
+	clear:right;
+}
+
+#header #andcname {
+	text-align:center;
+	font-size:25px;
+	color:maroon;
+}
+
+p {
+	margin:0px;
+}
+
+#header #p1, .box #p1{
+	font-size:42px;
+}
+
+#header #p3 {
+	font-size:45px;
+	color:black;
+}
+
+/* NAVIGATION BAR
+=================*/
+
+#navbar {
+	margin:10px 15px 0px 15px;
+	border-radius:8px;
+	padding:0px;
+	text-align:center;
+	font-size:25px;
+	font-family:"Gothic";
+	background:linear-gradient(rgba(255,255,255,1),rgba(244,244,244,0.7),rgba(255,255,255,1));
+	border: 3px solid black;
+}
+
+#navbar ul	{
+	padding:0px;
+	margin:0px auto;
+	list-style-type:none;
+}
+
+#navbar ul li {
+	display:inline-block;
+	padding: 4px 3px;
+}
+
+#navbar ul li a {
+	text-decoration:none;
+	color:black;
+	padding:2px 4px;
+	font-size:90%;
+	border-radius:6px;
+}
+
+#navbar ul li a:hover {
+	background:linear-gradient(to right,black,grey,black);
+	color:white;
+}
+
+/* CONTENT BOX 1
+=================*/
+
+.box {
+	margin:10px 30px 10px 320px;
+	padding:20px;
+	font-family:verdana;
+	font-size:20px;
+	background:linear-gradient(to right,rgba(211,211,211,1),rgba(211,211,211,0.7));
+	border:2px black ridge;
+	border-radius:10px;
+}
+
+#sidebox1 {
+	float:left;
+	clear:left;
+	width:230px;
+	margin-top:10px;
+	margin-left:30px;
+	padding:20px;
+	font-family:serif;
+	font-size:25px;
+	background:linear-gradient(to right,rgba(211,211,211,1),rgba(211,211,211,0.7));
+	border:2px black ridge;
+	border-radius:6px;
+}
+
+#sidebox1 ul {
+	padding-left:20px;
+}
+
+#sidebox1 ul li {
+	padding:0px;
+}
+#sidebox1 ul li a {
+	text-decoration:none;
+	font-weight:bold;
+	color:blue;
+}
+
+#sidebox1 ul li a:hover {
+	opacity:0.5;
+}
+
+#sidebox1 p {
+	font-size:30px;
+	font-family:Serif;
+}
+
+#sidebox2 {
+	float:left;
+	clear:left;
+	width:270px;
+	text-align:center;
+	margin-top:10px;
+	margin-left:30px;
+	margin-bottom:10px;
+	font-family:serif;
+	font-size:25px;
+	background:linear-gradient(to right,rgba(211,211,211,1),rgba(211,211,211,0.7));
+	border:2px black ridge;
+	border-radius:6px;
+}
+
+#sidebox2 ul {
+	padding:10px;
+}
+
+#sidebox2 ul li {
+	list-style-type:none;
+	padding:10px;
+}
+#sidebox2 ul li a {
+	text-decoration:none;
+	font-weight:bold;
+	color:blue;
+}
+
+#sidebox2 ul li a:hover {
+	opacity:0.5;
+}
+
+#sidebox2 hr {
+	margin:2px;
+}
+
+/* FOOTER
+=========*/
+
+#footer {
+	clear:both;
+	margin-top:40px;
+	padding:10px;
+	background:linear-gradient(lightgrey,white,lightgrey);
+	border: 2px ridge Black;
+	border-radius:4px;
+	text-align:center;
+	font-size:15px;
+	font-family:"Gothic";
+}
+
+#footer ul	{
+	padding:0px;
+	margin:0px auto;
+	list-style-type:none;
+}
+
+#footer ul li {
+	display:inline-block;
+	padding: 0px 3px;
+}
+
+#footer ul li a {
+	text-decoration:none;
+	color:black;
+	padding:2px 4px;
+	font-size:90%;
+	border-radius:6px;
+}
+
+#footer ul li a:hover {
+	background:linear-gradient(to right,lightgrey,white,lightgrey);
+}
+
+@media (max-width:590px) {
+	#header {
+		margin-top:92px;
+	}
+}
